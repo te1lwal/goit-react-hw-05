@@ -1,0 +1,22 @@
+.header {
+  background-color: #2a143f;
+  padding: 10px 20px;
+  color: #f0eaf5;
+}
+
+.nav_list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.nav_item {
+  color: #f0eaf5;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav_item:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+.movie_details_page_container,
+.loading {
+  background-color: #966fbb;
+  color: #f0eaf5;
+  padding: 10px 20px;
+}
+
+.loading {
+  font-size: larger;
+  text-align: center;
+}
+
+.movie_details_page_container button {
+  padding: 10px;
+  color: #f0eaf5;
+  background-color: #2a143f;
+  transition: all ease-in-out;
+  border-radius: 5px;
+  border: 1px solid #2a143f;
+}
+
+.movie_details_page_container button:hover {
+  background-color: #1f0f2f;
+}
+
+.movie_img {
+  width: 30%;
+  max-width: 270px;
+}
+
+.img_info_wrapper {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.movie_info_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  border-top: 1px solid #2a143f;
+  border-bottom: 1px solid #2a143f;
+  padding: 20px;
+  font-size: large;
+}
+
+.cast:hover,
+.reviews:hover {
+  color: #2a143f;
+}

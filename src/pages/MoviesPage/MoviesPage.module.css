@@ -1,0 +1,35 @@
+.movies_page_container {
+  background-color: #966fbb;
+  color: #f0eaf5;
+  padding: 10px 20px;
+}
+
+.movies_page_container h2 {
+  text-align: center;
+}
+
+.search_form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search_form input {
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #2a143f;
+}
+
+.search_form button {
+  padding: 10px;
+  color: #e0e1dd;
+  background-color: #2a143f;
+  transition: all ease-in-out;
+  border-radius: 5px;
+  border: 1px solid #2a143f;
+}
+
+.search_form button:hover {
+  background-color: #1f0f2f;
+}

@@ -1,0 +1,16 @@
+.not_found_container {
+  text-align: center;
+  background-color: #966fbb;
+  color: #f0eaf5;
+  padding: 40px 20px;
+}
+
+.go_home_link {
+  text-decoration: none;
+  color: #2a143f;
+  font-weight: bold;
+}
+
+.go_home_link:hover {
+  text-decoration: underline;
+}
